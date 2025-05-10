@@ -1,31 +1,27 @@
-# %% [markdown]
-# Práctico 5: Funciones
+# PRACTICO 5: LISTAS
+#-------------------------------------------------------------------------#
 # Alumno: Nikolas Barroso
+# PD: este trabajo fue realizado con jupyter y luego exportado a Python.
+#-------------------------------------------------------------------------#
 
-# %% [markdown]
 # 1) Crear una lista con los números del 1 al 100 que sean múltiplos de 4. Utilizar la función range.
 
-# %%
 lista_multiplos = list(range(4, 100, 4))
 
 print("Lista de múltiplos de 4 del 1 al 100:")
 print(lista_multiplos)
 
 
-# %% [markdown]
 # 2) Crear una lista con cinco elementos (colocar los elementos que más te gusten) y mostrar el penúltimo. ¡Puedes hacerlo como se muestra en los videos o bien investigar cómo funciona el indexing con números negativos!
 
-# %%
 lista_elementos = ["Nikolas", "facultad", "programación", "CPU", "juegos"]
 
 print(f"Penúltimo elemento usando índice negativo: {lista_elementos[-2]}")
 
-# %% [markdown]
 # 3) Crear una lista vacía, agregar tres palabras con append e imprimir la lista resultante por pantalla. Pista: para crear una lista vacía debes colocar los corchetes sin nada en su interior. Por ejemplo:
 # 
 # lista_vacia = []
 
-# %%
 lista_vacia = []
 
 lista_vacia.append("futbol")
@@ -35,10 +31,8 @@ lista_vacia.append("Javascript")
 print("Lista vacía después de agregar elementos:")
 print(lista_vacia)
 
-# %% [markdown]
 # 4) Reemplazar el segundo y último valor de la lista “animales” con las palabras “loro” y “oso”, respectivamente. Imprimir la lista resultante por pantalla. ¡Puedes hacerlo como se muestra en los videos o bien investigar cómo funciona el indexing con números negativos! animales = ["perro", "gato", "conejo", "pez"]
 
-# %%
 animales = ["perro", "gato", "conejo", "pez"]
 
 animales[1] = "loro"
@@ -47,33 +41,27 @@ animales[-1] = "oso"
 print("Lista de animales es:")
 print(animales)
 
-# %% [markdown]
 # 5) Analizar el siguiente programa y explicar con tus palabras qué es lo que realiza.
 # 
 # numeros = [8, 15, 3, 22, 7]
 # numeros.remove(max(numeros))
 # print(numeros)
 
-# %% [markdown]
 # 5_ En la primer linea de codigo, se crea e inicializa la lista numeros = [] con los valores: 8, 15, 3, 22 y 7.
 # En la segunda linea, hace que .remove() busque y elimine el numero mas alto con max(numeros), que en este caso seria 22.
 # Por ultimo, imprime la lista numeros con los valores de la siguiente manera:
 # [8, 15, 3, 7]
 
-# %% [markdown]
 # 6) Crear una lista con números del 10 al 30 (incluído), haciendo saltos de 5 en 5 y mostrar por pantalla los dos primeros.
 
-# %%
 numeros = list(range(10, 31, 5))
 
 print(f"Los dos primeros numeros de la lista son: {numeros[:2]}")
 
-# %% [markdown]
 # 7) Reemplazar los dos valores centrales (índices 1 y 2) de la lista “autos” por dos nuevos valores cualesquiera.
 # 
 # autos = ["sedan", "polo", "suran", "gol"]
 
-# %%
 autos = ["sedan", "polo", "suran", "gol"]
 
 autos[0] = "corolla"
@@ -82,10 +70,8 @@ autos[1] = "yaris"
 print("La lista de autos es:")
 print(autos)
 
-# %% [markdown]
 # 8) Crear una lista vacía llamada "dobles" y agregar el doble de 5, 10 y 15 usando append directamente. Imprimir la lista resultante por pantalla.
 
-# %%
 dobles = []
 
 dobles.append(5 * 2)
@@ -95,7 +81,6 @@ dobles.append(15 * 2)
 print("Lista de dobles:")
 print(dobles)
 
-# %% [markdown]
 # 9) Dada la lista “compras”, cuyos elementos representan los productos comprados por
 # diferentes clientes: 
 # compras = [["pan", "leche"], ["arroz", "fideos", "salsa"], ["agua"]]
@@ -105,7 +90,6 @@ print(dobles)
 #   c) Eliminar "pan" de la lista del primer cliente.
 #   d) Imprimir la lista resultante por pantalla.
 
-# %%
 compras = [["pan", "leche"], ["arroz", "fideos", "salsa"], ["agua"]]
 
 compras[2].append("jugo")
@@ -115,7 +99,6 @@ compras[0].remove("pan")
 print("Lista de compras:")
 print(compras)
 
-# %% [markdown]
 # 10) Elaborar una lista anidada llamada “lista_anidada” que contenga los siguientes elementos:
 #   ● Posición lista_anidada[0]: 15
 #   ● Posición lista_anidada[1]: True
@@ -125,7 +108,6 @@ print(compras)
 #   ● Posición lista_anidada[3]: False
 # Imprimir la lista resultante por pantalla.
 
-# %%
 lista_anidada = [15, True, [25.5, 57.9, 30.6], False]
 
 print("Lista anidada:")
