@@ -1,5 +1,5 @@
-
-# Práctico 4: Estructuras repetitivas
+# PRACTICO 4: ESTRUCTURAS REPETITIVAS
+#-------------------------------------------------------------------------#
 # Alumno: Nikolas Barroso
 # PD: este trabajo fue realizado con jupyter y luego exportado a Python.
 #-------------------------------------------------------------------------#
