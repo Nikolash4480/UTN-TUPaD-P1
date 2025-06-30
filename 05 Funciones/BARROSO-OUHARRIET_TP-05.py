@@ -1,19 +1,13 @@
-"""
-Práctico 2: Funciones en Python
-
-Objetivo:
-Comprender y aplicar el uso de funciones en la programación, desarrollando algoritmos
-que implementen modularidad, reutilización de código y una organización estructurada
-para resolver problemas.
-"""
-
+# PRACTICO 2: FUNCIONES
+#-------------------------------------------------------------------------#
+# Alumno: Nikolas Barroso
+# PD: este trabajo fue realizado con jupyter y luego exportado a Python.
+#-------------------------------------------------------------------------#
 # --- Actividades ---
 
-"""
-1. Crear una función llamada imprimir_hola_mundo que imprima por
-pantalla el mensaje: "Hola Mundo!".
-Llamar a esta función desde el programa principal.
-"""
+
+#1. Crear una función llamada imprimir_hola_mundo que imprima por pantalla el mensaje: "Hola Mundo!". Llamar a esta función desde el programa principal.
+
 def imprimir_hola_mundo():
     print("Hola Mundo!")
 
